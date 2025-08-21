@@ -40,6 +40,16 @@ for i in range(len(numbers)):
         if numbers[i] == numbers[j]:
             print(numbers[i])
             break
+        
+############################################
+
+# Find the specific number
+
+num = [4,5,4,2,66,7,77,88,90]
+
+for i in range(len(num)):
+    if num[i] == 66:
+        print(i)
     
     
     
